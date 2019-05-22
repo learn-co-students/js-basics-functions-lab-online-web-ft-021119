@@ -10,6 +10,7 @@ function distanceFromHqInBlocks(street) {
 }
 
 function distanceFromHqInFeet(street) {
+<<<<<<< HEAD
   let blocks = distanceFromHqInBlocks(street);
   return blocks*264
 }
@@ -37,4 +38,8 @@ function calculatesFarePrice(pickup, destination) {
     response = 25
   }
   return response
+=======
+  distanceFromHqInBlocks(street){
+  }*264
+>>>>>>> c32b6ca819b774c7b4fde24fd88a50738aa53bec
 }
